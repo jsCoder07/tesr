@@ -1,0 +1,30 @@
+.whiteShadow {
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  background: #ecf0f3;
+  position: relative;
+  z-index: 5;
+  }
+.whiteShadow:hover::before, .burgerShadow:hover::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: inset -3px -3px 7px #ffffff,inset 3px 3px 5px #ceced1;
+  background: #ecf0f3;
+  z-index: -1;
+}
+.navShadow {
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  background: #ecf0f3;
+  }
+  .burgerShadow {
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    background: #fff;
+    position: relative;
+    z-index: 5;
+    }
+    .burgerShadow:hover::before{
+      border-radius: 50%;
+    }
