@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Plus Social Media App",
+  title: "Plus Squared Social Media App",
   description: "Developed by Adeboye Thompson July 2024",
 };
 
